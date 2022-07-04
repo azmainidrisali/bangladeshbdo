@@ -1,0 +1,1323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: #ffffff;
+}
+
+header {
+    position: relative;
+    background: #39dffd;
+    padding: 9px 0px 35px 0px;
+}
+
+header .headerBAckgriundImg {
+    position: absolute;
+    top: 0;
+}
+
+header .headerBAckgriundImg img {
+    width: 100%;
+}
+
+header .headerStart .headerIntroLogo h1 {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 70.49px;
+}
+
+header .headerStart .headerIntroLogo p {
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 35.52px;
+}
+
+header .headerStart .headerIntroLogo .btnLink {
+    padding-top: 40px;
+}
+
+header .headerStart .headerIntroLogo .btnLink a {
+    font-family: 'Lato';
+    color: #15dbff;
+    font-size: 25.35px;
+    background: #ffffff;
+    padding: 19px 83px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .headerStart .bloodDonarSearch .bloodDonarSearchBody {
+    background: #ffffff;
+    margin-top: 61px;
+    padding: 41px 78px;
+    border-radius: 2px;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+
+header .headerStart .bloodDonarSearch .bloodDonarSearchBody .donarQuerySelect select {
+    width: 24%;
+    border: 0px;
+    font-family: 'Lato';
+    font-size: 24.31px;
+    color: #a3a3a4;
+    outline: 0;
+    border-left: 1px solid #d3d3d3;
+    padding: 16px 0px;
+}
+header .headerStart .bloodDonarSearch .bloodDonarSearchBody .donarQuerySelect select:nth-child(1) {
+    border-left: 0px;
+}
+header .headerStart .bloodDonarSearch .bloodDonarSearchBody .donarQuerySelect {
+    -webkit-box-shadow: 0px 13px 29px 0px rgba(212,221,255,1);
+    -moz-box-shadow: 0px 13px 29px 0px rgba(212,221,255,1);
+    box-shadow: 0px 13px 29px 0px rgba(212,221,255,1);
+    background: #ffffff;
+}
+header .headerStart .bloodDonarSearch .bloodDonarSearchBody .searchDonarBtn button {
+    width: 100%;
+    background: linear-gradient(0deg, #19e4ec, #15dbff);
+    border: none;
+    padding: 8px 0px;
+    font-size: 38.99px;
+    font-family: 'Lato';
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 32px;
+    outline: 0;
+    border-radius: 2px;
+}
+
+#bloodDonationRequest {
+    padding-top: 74px;
+    padding-bottom: 39px;
+}
+
+
+#bloodDonationRequest .bloodDonationReqBody {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    border-radius: 5px 5px 19px 19px;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .reqDetails {
+    padding: 29px 18px 21px 18px;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .reqMetaDescription ul li {
+    list-style-type: none;
+    display: inline;
+    background: linear-gradient(-107deg, rgba(33,244,203,1) 0%, rgba(21,219,255,1) 100%);
+    padding: 13px 21px;
+    font-family: 'Lato Black';
+    font-size: 19.45px;
+    color: #ffffff;
+    border-radius: 15.94px;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .reqDetails .requestTitle {
+    margin-bottom: 21px;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .reqDetails .requestTitle h1 {
+    font-family: 'Lato Black';
+    font-size: 35.39px;
+    color: #ff496b;
+    text-transform: capitalize;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .hospitalLocation {
+    background: linear-gradient(-107deg, rgba(28,235,223,1) 0%, rgba(21,219,255,1) 100%);
+    padding: 21px 31px;
+    border-radius: 8px;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .hospitalLocation h1 {
+    font-family: 'Lato Black';
+    font-size: 31.6px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#bloodDonationRequest .bloodDonationReqBody .hospitalLocation p {
+    font-family: 'Lato Semibold';
+    font-size: 23.92px;
+    color: #ffffff;
+}
+
+#bloodDonationRequest .bloodDonationReqBody {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    border-radius: 5px 5px 19px 19px;
+    margin: 10px 0px;
+}
+
+#bloodDonarCount {
+    padding: 0px 0px 40px 0px;
+}
+
+#bloodDonarCount .donarCountSingle {
+    background: #15dbff;
+    color: #ffffff;
+    font-family: 'lato';
+    font-weight: bold;
+    margin-bottom: 46px;
+    height: 89px;
+    border-radius: 5px;
+}
+
+#bloodDonarCount .donarCountSingle .Count p {
+    font-size: 42.47px;
+    padding-top: 12px;
+}
+
+#bloodDonarCount .donarCountSingle .donarType {
+    display: inline;
+    float: left;
+    background: #ffffff;
+    color: #15dbff;
+    margin: 13px 21px;
+    border-radius: 4px;
+}
+#bloodDonarCount .donarCountSingle .donarType h1 {
+    margin: 3px 8px;
+    font-family: 'Lato';
+    padding: 0px 0px;
+}
+#bloodDonarCount .donarCountSingle .Count{
+    display: inline;
+}
+
+.topDonarBody {
+    padding-bottom: 100px;
+}
+
+#topDonar .topDonarBody .topDonarSingle {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    color: #15dbff;
+}
+
+#topDonar .topDonarBody .topDonarSingle .donarInfo h1 {
+    font-family: 'lato';
+    font-weight: bolder;
+    font-size: 31.43px;
+}
+#topDonar .topDonarBody .topDonarSingle .donarInfo p {
+    font-family: 'lato';
+    font-weight: 600;
+    font-size: 18.86px;
+}
+#topDonar .topDonarBody .topDonarSingle .bloodDonarType h1 {
+    font-family: 'lato';
+    font-weight: 400;
+    font-size: 51.4px;
+    padding: 15px;
+}
+#topDonar .topDonarBody .topDonarSingle .topDonarSingleBody {
+    padding: 16px 27px;
+    margin-bottom: 47px;
+}
+.bloodDonarType {
+    background: #15dbff;
+    border-radius: 50%;
+    width: 91px;
+    height: 91px;
+    color: #ffffff;
+}
+
+#DivisionBasedDonar .divisionsBody .DivisionSingle {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    color: #15dbff;
+}
+/*BdO34Bangladesh=_=+*/
+#DivisionBasedDonar .divisionsBody .DivisionSingleBody {
+    padding: 16px 27px;
+    margin-bottom: 47px;
+    transition: 0.3s;
+}
+#DivisionBasedDonar .divisionsBody .DivisionSingleBody:hover {
+    background: #2eddfe;
+    color: #ffffff;
+    cursor: pointer;
+}
+#DivisionBasedDonar .divisionsBody .DivisionSingle .Icon{
+    background: #15dbff;
+    border-radius: 50%;
+    width: 91px;
+    height: 91px;
+    color: #ffffff;
+}
+
+#DivisionBasedDonar .divisionsBody .DivisionSingle .DivisionSingleBody .Icon i {
+    font-size: 51.4px;
+    padding: 20px 26px;
+    font-size: 51.04px;
+}
+
+.DivisionName h1 {
+    font-size: 31.43px;
+    font-family: 'Lato';
+    font-weight: bolder;
+    margin-top: 28px;
+}
+
+.feedbackSingle {
+    background: #15dbff;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.feedBackSingleBoy {
+    padding: 44px 23px;
+}
+
+.feedbackSingle .feedBackSingleBoy p{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 20.87px;
+}
+.feedbackSingle .feedBackSingleBoy h1{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 20.87px;
+}
+
+footer {
+    background: #15dbff;
+    color: #ffffff;
+}
+.footer {
+    padding: 44px 0px;
+}
+
+.footerBottomInfo {
+    background: #202531;
+    padding: 17px 0px 0px 0px;
+}
+.footerBottomInfo p {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18.01px;
+}
+.footerBottomInfo p span i{
+    color: #ff5b5b;
+    padding: 0px 5px 0px 5px;
+}
+
+.webTitleName h1 {
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-size: 45.31px;
+}
+.description p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 27.78px;
+}
+.socialMedia ul li {
+    list-style-type: none;
+    display: inline;
+}
+.socialMedia ul li i {
+    font-size: 33.61px;
+    background: #ffffff;
+    color: #15dbff;
+    padding: 12px 12px;
+    border-radius: 7px;
+}
+.Colum2Title h2 {
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-size: 24.48px;
+}
+.menu ul li {
+    list-style-type: none;
+    font-size: 20.83px;
+    font-family: 'Lato';
+    font-weight: 400;
+    /* color: #ffffff; */
+}
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.Colum3Title h2 {
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-size: 24.48px;
+}
+
+.profileBody{
+    margin: 82px 0px 10px 0px;
+}
+
+.ProfileInfoBody{
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    padding: 0px 24px;
+}
+.userProfile {
+    width: 100%;
+    padding-top: 64px;
+}
+.profileimg {
+    padding: 3px;
+    background: #55efc4;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+}
+.ProfileUserName h1 {
+    font-family: "Lato";
+    font-size: 24.31px;
+    text-align: center;
+    color: #a3a3a4;
+    margin-top: 24px;
+}
+.personalInfo ul li{
+    list-style-type: none;
+    font-family: "Lato";
+    font-size: 24.31px;
+    color: #a3a3a4;
+    padding-bottom: 18px;
+}
+.personalInfoTitle h1{
+    font-family: "Lato Black";
+    font-size: 24.31px;
+    text-align: left;
+    color: #a3a3a4;
+}
+.presentAddressTitle h1 {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 24.31px;
+    text-align: left;
+    color: #a3a3a4;
+}
+.PermanentAddressTitle h1 {
+    font-family: "Lato";
+    font-weight: bolder;
+    font-size: 24.31px;
+    text-align: left;
+    color: #a3a3a4;
+}
+.presentAddress ul li{
+    list-style-type: none;
+    font-family: "Lato";
+    font-size: 24.31px;
+    color: #a3a3a4;
+    padding-bottom: 7px;
+}
+.presentAddress p{
+    font-family: "Lato";
+    font-size: 21.31px;
+    color: #a3a3a4;
+}
+.PermanentAddress ul li{
+    list-style-type: none;
+    font-family: "Lato";
+    font-size: 24.31px;
+    color: #a3a3a4;
+    padding-bottom: 7px;
+}
+.PermanentAddress p{
+    font-family: "Lato";
+    font-size: 21.31px;
+    color: #a3a3a4;
+}
+.achivementBody {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    padding: 26px 20px;
+}
+
+.donationStatusBody{
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+
+donatedList{
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+.AchivementSingleBody h1 {
+    font-family: 'lato Regular';
+    font-size: 14.36px;
+    color: #a3a3a4;
+    text-align: center;
+}
+
+.AchivementSingleBody i {
+    color: #55efc4;
+    font-size: 133.37px;
+    margin-bottom: 19px;
+}
+
+.donationStatusBody {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    margin: 24px 0px;
+}
+.donationStatus h1 {
+    font-size: 34.72px;
+    color: #15dbff;
+    font-family: 'Lato Black';
+}
+.donationStatus h1 span{
+    color: #fe2b93;
+}
+.remaningDays {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    margin-top: 46px;
+    padding: 12px 16px;
+}
+.donationAfter p {
+    font-size: 20.83px;
+    font-family: 'Lato Black';
+    color: #15dbff;
+}
+.donationAfter p i {
+    color: #55efc4;
+}
+.remaningDays h1{
+    font-family: 'Lato Black';
+    font-size: 20.83px;
+    color: #15dbff;
+}
+.progresBarLeft{
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+
+.progresBarLeft .progress {
+    background-color: #15dbff;
+}
+
+.progress-bar {
+    background-color: #55efc4;
+}
+
+.donationAfter {
+    padding: 20px 17px 20px 17px;
+}
+
+.progress {
+    height: 27px;
+    border-radius: 6.25rem;
+}
+
+.donatedList {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    padding: 14px;
+    font-family: 'lato Light';
+    font-size: 24.31px;
+}
+
+.remaningDays .titleRemaning h1.rightSide {
+    float: right;
+    padding-left: 10px;
+}
+
+.donatedList h1 {
+    font-family: 'lato Light';
+    font-size: 24.31px;
+    color: #9f9f9f;
+}
+
+.loginBody {
+    margin-top: 258px;
+}
+
+.loginArea h1 {
+    font-family: 'Lato';
+    font-size: 49.39px;
+    color: #15dbff;
+    font-weight: bold;
+}
+
+p.login-info {
+    font-family: 'Lato';
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #15dbff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.profileimg img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: AUTO;
+}
+
+.loginArea input[type=submit] {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.loginBody {
+    margin-top: 85px;
+    margin-bottom: 100px;
+}
+
+.testTask .form-table {
+    width: 100%;
+}
+
+.testTask table.form-table input[type=text] {
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #8eebff;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 6px 12px;
+    color: #0990a9;
+    outline: 0;
+    width: 100% !important;
+}
+
+.testTask table tbody th label {
+    display: none;
+}
+
+.testTask table tbody td span {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: #382f6ba6;
+    font-style: italic;
+    display: none;
+}
+
+.testTask textarea {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #8eebff;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 6px 12px;
+    color: #0990a9;
+    outline: 0;
+}
+
+.form-submit input#updateuser {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+/*=========start navbar style=========*/
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px;
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #171c23;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        z-index: 200;
+    }
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        z-index: 200;
+    }
+}
+.bg-dark {
+    background-color: #ffffff!important;
+}  
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 51px;
+    overflow-y: hidden;
+}
+  
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.nav-icon {
+    outline: 0;
+}
+
+span.nav-icon i {
+    color: #171c23;
+    font-size: 23px;
+    outline: 0;
+}
+
+button.navbar-toggler.p-0.border-0 {
+    outline: 0;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-purple { background-color: #6f42c1; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+  
+.navbar-dark .navbar-nav .nav-link {
+    color: #171c23;
+    font-family: 'BanglaTitle2';
+    font-weight: bold;
+    font-size: 21px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(76, 182, 255);
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #171c23;
+    font-family: 'BanglaTitle2';
+    font-weight: bold;
+    font-size: 21px;
+}
+.navbar-dark .navbar-brand {
+    color: #00d2ec;
+    font-family: "maintitle";
+    font-weight: bold;
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #ff4646;
+}
+a.nav-link {
+    font-size: 18px;
+    font-family: "lato";
+    font-weight: bolder;
+    color: #15dbff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background: linear-gradient(45deg, #171c23, #171c23);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #4cb6ff;
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff222200, #ff797900);
+}
+
+
+/*=========End navbar style=========*/
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dadada;
+    border-radius: 0pc;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'lato';
+}
+
+.form-control:focus {
+    color: #949494;
+    background-color: transparent;
+    border-color: #dadada;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgb(0 123 255 / 25%);
+}
+
+.sidebox {
+    text-align: center;
+    background: #ffffff;
+    margin: 120px 0px;
+    color: #15deff;
+}
+
+.sidebox h3 {
+    font-family: 'Lato';
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-personaldetails input[type="text"] {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #8eebff;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 6px 12px;
+    color: #0990a9;
+    outline: 0;
+}
+.form-personaldetails input[type="password"] {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #8eebff;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 6px 12px;
+    color: #0990a9;
+    outline: 0;
+}
+.form-personaldetails textarea#description {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #8eebff;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 6px 12px;
+    color: #0990a9;
+    outline: 0;
+}
+
+.testTask h3 {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #382f2f;
+    font-size: 24px;
+}
+
+.applyform input[type='text'] {
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 1px solid #8eebff;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding: 6px 12px;
+    color: #0990a9;
+    outline: 0;
+}
+
+#postbox button {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.applyform h3 {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #382f2f;
+    font-size: 24px;
+}
+
+.applyform .termsCondition p {
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #545454;
+}
+
+.applyButton button {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 30%;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.messegeBoxAppliedAlready {
+    background: #ffffff;
+    margin: 61px 0px 61px 0px;
+    padding: 41px 78px;
+    border-radius: 2px;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+
+.messegeBoxAppliedAlready h1 {
+    color: #15dbff;
+    text-align: center;
+    font-size: 19px;
+}
+
+.applyForDonar {
+    background: #ffffff;
+    margin: 0px 0px 61px 0px;
+    padding: 41px 78px;
+    border-radius: 2px;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+
+.applyForDonar h1 {
+    color: #15dbff;
+    /* text-align: center; */
+    font-size: 19px;
+    font-family: "Lato";
+    font-weight: 900;
+}
+
+.applyForDonar button {
+    background: #15dbff;
+    border: none;
+    color: #ffffff;
+    padding: 12px 49px;
+    font-size: 22px;
+}
+
+.applyForDonar button {
+    background: #15dbff;
+    border: none;
+    color: #ffffff;
+    padding: 12px 49px;
+    font-size: 22px;
+    outline: none;
+}
+
+.applyForDonar button {
+    background: #15dbff;
+    border: none;
+    color: #ffffff;
+    padding: 7px 38px;
+    font-size: 22px;
+    outline: none;
+    border-radius: 2px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.applyImages{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.applyImages img {
+    width: 156px;
+}
+
+
+
+.profileUpdate {
+    background: #ffffff;
+    margin: 95px 0px 95px 0px;
+    padding: 41px 78px;
+    border-radius: 2px;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+}
+
+.profileUpdate h1 {
+    color: #15dbff;
+    /* text-align: center; */
+    font-size: 39px;
+    font-family: "Lato";
+    font-weight: 900;
+}
+
+.profileUpdate .applyImages{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.profileUpdate img {
+    width: 225px;
+}
+
+.profileUpdate button {
+    background: #15dbff;
+    border: none;
+    color: #ffffff;
+    padding: 7px 38px;
+    font-size: 22px;
+    outline: none;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.testTask select.selectItem {
+    border: 1px solid #15dbff;
+    font-family: 'Lato';
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0px;
+    color: #0990b1;
+}
+
+#topDonarSearch .topDonarBody {
+    padding-bottom: 100px;
+}
+
+#topDonarSearch .topDonarBody a{
+    text-decoration: none;
+}
+
+#topDonarSearch .topDonarBody .topDonarSingle {
+    background: #ffffff;
+    box-shadow: 0px 10px 70px 29px rgb(243 243 243 / 54%);
+    color: #15dbff;
+}
+
+#topDonarSearch .topDonarBody .topDonarSingle .donarInfo h1 {
+    font-family: 'lato';
+    font-weight: bolder;
+    font-size: 24.43px;
+}
+#topDonarSearch .topDonarBody .topDonarSingle .donarInfo p {
+    font-family: 'lato';
+    font-weight: 600;
+    font-size: 18.86px;
+}
+#topDonarSearch .topDonarBody .topDonarSingle .bloodDonarType h1 {
+    font-family: 'lato';
+    font-weight: 400;
+    font-size: 51.4px;
+    padding: 15px;
+}
+#topDonarSearch .topDonarBody .topDonarSingle .topDonarSingleBody {
+    padding: 16px 27px;
+    margin-bottom: 47px;
+}
+
+.socialMediaContact ul li i {
+    font-size: 29.61px;
+    background: #15dbff;
+    color: #ffffff;
+    padding: 12px 12px;
+    border-radius: 7px;
+}
+
+.socialMediaContact ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.alreadyAccount {
+    margin: 25px 0px 0px 0px;
+    background: #15dbff;
+    color: #ffffff;
+    font-family: 'Lato';
+    padding: 11px;
+    border-radius: 7px;
+}
+
+.alreadyAccount button {
+    background: #ffffff;
+    color: #15dbff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.loginArea label {
+    font-family: 'Lato';
+    text-transform: capitalize;
+}
+
+.loginVectorImageAlready img {
+    width: 100%;
+    height: auto;
+}
+
+.alreadyAccount p {
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.donarRequestSeeMore {
+    background: #2ddefe;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+}
+
+.bodyDoanrRequest h1 {
+    font-family: 'Lato semibold';
+    text-transform: uppercase;
+}
+
+.bdoRegisterWarning p {
+    margin: 0;
+    font-family: 'Lato';
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #ffffff;
+}
+
+.bdoRegisterWarning .alert-danger {
+    color: #ffffff;
+    background: linear-gradient( 
+45deg
+ , #ff5b79, #ff5b5b);
+    border-color: #23deff00 !important;
+}
+
+.bdoRegisterWarning .alert {
+    position: relative;
+    padding: 3px 17px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.bdoPassrestReq [type=submit] {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+div#password-lost-form [type=text] {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dadada;
+    border-radius: 0pc;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'lato';
+}
+
+div#password-lost-form p {
+    font-family: 'Lato';
+    font-size: 22px;
+    color: #15dbff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bdoPassrestReq {
+    margin: 118px 0px;
+}
+
+div#password-lost-form [type=text] {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dadada;
+    border-radius: 0pc;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'lato';
+    outline: none;
+}
+
+.bdoPassRestForm input#resetpass-button {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.bdoPassRestForm input#pass1, input#pass2{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dadada;
+    border-radius: 0pc;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'lato';
+    outline: none;
+}
+
+.bdoPassRestForm .placeTitle p {
+    font-family: 'Lato';
+    font-size: 22px;
+    color: #15dbff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forgetRegisterField {
+    margin: 15px 0px;
+}
+
+.forgetRegisterField a button {
+    background: #15dbff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 1px;
+    margin-top: 18px;
+    width: 49%;
+    border-radius: 3px;
+    padding: 10px 0px;
+    font-family: 'Lato';
+    font-size: 21px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.donationStatusBody .donationStatus input[type='submit'] {
+    width: 20%;
+    background: linear-gradient( 
+0deg
+ , #19e4ec, #15dbff);
+    border: none;
+    padding: 0px 0px;
+    font-size: 26.99px;
+    font-family: 'Lato';
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 1px;
+    outline: 0;
+    border-radius: 2px;
+}
+
+.donationStatus select#donar {
+    width: 79%;
+    border: 1px solid #a3a3a438;
+    font-family: 'Lato';
+    font-size: 25.31px;
+    color: #a3a3a4;
+    outline: 0;
+    /* border-left: 1px solid #d3d3d3; */
+    padding: 3px 0px;
+    /* box-shadow: 0px -1px 20px 0px rgb(212 221 255); */
+    background: #ffffff;
+}
